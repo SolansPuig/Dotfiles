@@ -1,0 +1,31 @@
+!Gruvbox Theme
+!XTerm.vt100.background:#282828
+!XTerm.vt100.foreground:#ebdbb2
+!XTerm.vt100.color0:	#282828
+!XTerm.vt100.color1:	#cc241d
+!XTerm.vt100.color2:	#98971a
+!XTerm.vt100.color3:	#d79921
+!XTerm.vt100.color4:	#458588
+!XTerm.vt100.color5:	#b16286
+!XTerm.vt100.color6:	#689d6a
+!XTerm.vt100.color7:	#a89984
+!XTerm.vt100.color8:	#928374
+!XTerm.vt100.color9:	#fb4934
+!XTerm.vt100.color10:	#b8bb25
+!XTerm.vt100.color11:	#fabd2f
+!XTerm.vt100.color12:	#83a598
+!XTerm.vt100.color13:	#d3869b
+!XTerm.vt100.color14:	#8ec07c
+!XTerm.vt100.color15:	#ebdbb2
+
+!Fonts
+URxvt*font: xft:RobotoMono Nerd Font:size=12
+
+!Be able to copy
+URxvt*VT100.Translations: #override \
+		Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+		Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+
+URxvt*transparent: true
+URxvt*shading: 30
+URxvt*scrollBar : false
